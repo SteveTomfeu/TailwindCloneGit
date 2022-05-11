@@ -31,7 +31,7 @@
         </nav>
     </div>
     <main class="p-16 bg-gray-500">  <!--contenu principal-->
-        <div class="my-2 text-secondary-200 flex justify-end">
+        <div class="my-2 text-secondary-200 flex justify-center md:justify-end">
             <a href="">Connexion</a> 
             <span class="ml-1">|</span>
             <a href="" class="ml-1">Inscription</a>
@@ -45,11 +45,14 @@
                 <h4 class="text-secondary-100 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus récentes</h4>
                 <div class="py-16">
                     <!--nos cards ici-->
-                    <div class="bg-white rounded-md overflow-hidden shadow-md">
+                    <div class="bg-white rounded-md overflow-hidden shadow-md relative">
                         <img src="../../dist/images/Poisson Braise.jpg" alt="poisson braisé" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover"/>
                         <div class="m-4">
                             <span class="font-bold text-2xl">Poisson Braisé</span>
                             <span class="block text-lg">Par tony pro</span>
+                        </div>
+                        <div class="bg-primary text-white text-sm p-1 rounded-full inline absolute top-0 mt-2 ml-2">
+                            <span class="mx-2">30:00</span>
                         </div>
                     </div>
                 </div>
