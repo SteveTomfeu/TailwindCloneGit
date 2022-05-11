@@ -6,7 +6,7 @@
 
  <div class="text-gray-400 font-nunito grid md:grid-cols-4">  <!--content wraper-->
     <div class="p-4 md:col-span-1">  <!--entete-->
-        <nav>
+        <nav class="">
             <div class="flex">
                 <div class="flex items-center justify-items-center">
                     <div class="bg-primary h-3 w-3"></div>
@@ -14,30 +14,30 @@
                     <div class="bg-secondary-200 h-6 w-3"></div>
                 </div>
                 <h1 class="text-gray-700 text-2xl font-bold ml-2">
-                    <a href="" class="sm:text-primary md:text-secondary-200 lg:text-secondary-100 text-gray-300 hover:text-purple-700">KamerFood</a>
+                    <a href="" class="sm:text-primary md:text-secondary-200 lg:text-secondary-100 text-gray-300 hover:text-purple-700 uppercase font-bold">KamerFood</a>
                 </h1>              
             </div>
             <ul>
-                <li>
-                    <a href="">
-                    <span class="text-gray-700 font-bold">Accueil</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <li class="py-2">
+                    <a href="" class="flex justify-end ">
+                    <span class=" font-bold text-lg text-secondary-100">Accueil</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 text-gray-700 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                    <span>Contact</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <li class="py-2">
+                    <a href="" class="flex justify-end">
+                    <span class="text-lg">Contact</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 text-gray-700 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                    <span>Apropos</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <li class="py-2">
+                    <a href="" class="flex justify-end">
+                    <span class="text-lg">Apropos</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2 text-gray-700 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
                     </svg>
                     </a>
