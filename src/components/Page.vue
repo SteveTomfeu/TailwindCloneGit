@@ -32,9 +32,9 @@
     </div>
     <main class="p-16 bg-gray-100 col-span-3">  <!--contenu principal-->
         <div class="my-2 text-secondary-200 flex justify-center md:justify-end">
-            <a href="">Connexion</a> 
-            <span class="ml-1">|</span>
-            <a href="" class="ml-1">Inscription</a>
+            <a href="" class="btn border-2 border-secondary-200">Connexion</a> 
+            
+            <a href="" class="ml-1 btn border-2 border-secondary-200">Inscription</a>
         </div>
         <header class="mt-8">
                 <h2 class="text-primary text-5xl font-semibold">Recettes</h2>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <span class="bg-gray-300 text-gray-800 p-3">afficher plus ...</span>
+            <span class="bg-gray-300 text-gray-800 p-3 btn">afficher plus ...</span>
         </div>
     </main>
  </div>
