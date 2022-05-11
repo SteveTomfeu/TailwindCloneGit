@@ -7,9 +7,14 @@
  <div class="text-gray-400 font-nunito">  <!--content wraper-->
     <div class="p-4">  <!--entete-->
         <nav>
-            <div >
-                <h1 class="text-gray-700 text-2xl font-bold">
-                    <a href="" class="text-primary text-pro">KamerFood</a>
+            <div class="flex">
+                <div class="flex items-center justify-items-center">
+                    <div class="bg-primary h-3 w-3"></div>
+                    <div class="bg-secondary-100 h-4 w-3"></div>
+                    <div class="bg-secondary-200 h-6 w-3"></div>
+                </div>
+                <h1 class="text-gray-700 text-2xl font-bold ml-2">
+                    <a href="" class="text-primary ">KamerFood</a>
                 </h1>              
             </div>
             <ul>
@@ -26,9 +31,9 @@
         </nav>
     </div>
     <main class="p-16">  <!--contenu principal-->
-        <div class="my-2">
+        <div class="my-2 text-secondary-200 flex justify-end">
             <a href="">Connexion</a>
-            <a href="">Inscription</a>
+            <a href="" class="ml-3">Inscription</a>
         </div>
         <header class="mt-8">
                 <h2 class="text-primary text-5xl font-semibold">Recettes</h2>
@@ -54,6 +59,9 @@
                     <!--Les cartes ici-->
                 </div>
             </div>
+        </div>
+        <div class="flex justify-center">
+            <span class="bg-gray-300 text-gray-800 p-3">afficher plus ...</span>
         </div>
     </main>
  </div>
