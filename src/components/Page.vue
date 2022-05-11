@@ -4,7 +4,7 @@
 
 <template>
 
- <div class="text-gray-400">  <!--content wraper-->
+ <div class="text-gray-400 font-nunito">  <!--content wraper-->
     <div class="p-4">  <!--entete-->
         <nav>
             <div >
@@ -36,8 +36,8 @@
         </header>
         <div>
             <div>
-                <h4 class="text-secondary-100 text-3xl my-4 border-b border-gray-300">Recettes les plus récentes</h4>
-                <div class="pb-16">
+                <h4 class="text-secondary-100 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus récentes</h4>
+                <div class="py-16">
                     <!--nos cards ici-->
                     <div>
                         <img src="#" alt=""/>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div>
-                <h4 class="text-secondary-200 text-3xl my-4 border-b border-gray-300">Recettes les plus populaires</h4>
+                <h4 class="text-secondary-200 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus populaires</h4>
                 <div class="pb-16">
                     <!--Les cartes ici-->
                 </div>
