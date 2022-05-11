@@ -5,11 +5,11 @@
 <template>
 
  <div class="text-gray-400">  <!--content wraper-->
-    <div>  <!--entete-->
+    <div class="p-4">  <!--entete-->
         <nav>
-            <div>
+            <div >
                 <h1 class="text-gray-700 text-2xl font-bold">
-                    <a href="">KamerFood</a>
+                    <a href="" class="text-primary text-pro">KamerFood</a>
                 </h1>              
             </div>
             <ul>
@@ -25,19 +25,19 @@
             </ul>
         </nav>
     </div>
-    <main>  <!--contenu principal-->
-        <div>
+    <main class="p-16">  <!--contenu principal-->
+        <div class="my-2">
             <a href="">Connexion</a>
             <a href="">Inscription</a>
         </div>
-        <header>
-                <h2 class="text-gray-700 text-5xl font-semibold">Recettes</h2>
+        <header class="mt-8">
+                <h2 class="text-primary text-5xl font-semibold">Recettes</h2>
                 <h3 class="text-2xl font-semibold">Pour les pros</h3>
         </header>
         <div>
             <div>
-                <h4 class="text-gray-700">Recettes les plus récentes</h4>
-                <div>
+                <h4 class="text-secondary-100 text-3xl my-4 border-b border-gray-300">Recettes les plus récentes</h4>
+                <div class="pb-16">
                     <!--nos cards ici-->
                     <div>
                         <img src="#" alt=""/>
@@ -49,8 +49,8 @@
                 </div>
             </div>
             <div>
-                <h4 class="text-gray-700">Recettes les plus populaires</h4>
-                <div>
+                <h4 class="text-secondary-200 text-3xl my-4 border-b border-gray-300">Recettes les plus populaires</h4>
+                <div class="pb-16">
                     <!--Les cartes ici-->
                 </div>
             </div>
