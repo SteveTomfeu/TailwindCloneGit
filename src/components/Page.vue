@@ -14,7 +14,7 @@
                     <div class="bg-secondary-200 h-6 w-3"></div>
                 </div>
                 <h1 class="text-gray-700 text-2xl font-bold ml-2">
-                    <a href="" class="text-primary ">KamerFood</a>
+                    <a href="" class="sm:text-primary md:text-secondary-200 lg:text-secondary-100 text-gray-300 hover:text-purple-700">KamerFood</a>
                 </h1>              
             </div>
             <ul>
@@ -47,9 +47,9 @@
     </div>
     <main class="p-16 bg-gray-100 md:col-span-3">  <!--contenu principal-->
         <div class="my-2 text-secondary-200 flex justify-center md:justify-end">
-            <a href="" class="btn border-2 border-secondary-200">Connexion</a> 
+            <a href="" class="btn border-2 border-secondary-200 hover:bg-secondary-200 hover:text-white">Connexion</a> 
             
-            <a href="" class="ml-1 btn border-2 border-secondary-200">Inscription</a>
+            <a href="" class="ml-1 btn border-2 border-secondary-200 hover:bg-secondary-200 hover:text-white">Inscription</a>
         </div>
         <header class="mt-8">
                 <h2 class="text-primary text-5xl font-semibold">Recettes</h2>
@@ -60,7 +60,7 @@
                 <h4 class="text-secondary-100 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus récentes</h4>
                 <div class="py-16 grid md:grid-cols-3 gap-8">
                     <!--nos cards ici-->
-                    <div class="card">
+                    <div class="card ">
                         <img src="../../dist/images/Poisson Braise.jpg" alt="poisson braisé" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover"/>
                         <div class="m-4">
                             <span class="font-bold text-2xl">Poisson Braisé</span>
