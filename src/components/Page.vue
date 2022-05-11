@@ -4,8 +4,8 @@
 
 <template>
 
- <div class="text-gray-400 font-nunito">  <!--content wraper-->
-    <div class="p-4">  <!--entete-->
+ <div class="text-gray-400 font-nunito grid grid-cols-4">  <!--content wraper-->
+    <div class="p-4 col-span-1">  <!--entete-->
         <nav>
             <div class="flex">
                 <div class="flex items-center justify-items-center">
@@ -30,7 +30,7 @@
             </ul>
         </nav>
     </div>
-    <main class="p-16 bg-gray-100">  <!--contenu principal-->
+    <main class="p-16 bg-gray-100 col-span-3">  <!--contenu principal-->
         <div class="my-2 text-secondary-200 flex justify-center md:justify-end">
             <a href="">Connexion</a> 
             <span class="ml-1">|</span>
@@ -43,12 +43,42 @@
         <div>
             <div>
                 <h4 class="text-secondary-100 text-3xl my-4 border-b pb-2 border-gray-300">Recettes les plus récentes</h4>
-                <div class="py-16">
+                <div class="py-16 grid grid-cols-3 gap-8">
                     <!--nos cards ici-->
                     <div class="card">
                         <img src="../../dist/images/Poisson Braise.jpg" alt="poisson braisé" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover"/>
                         <div class="m-4">
                             <span class="font-bold text-2xl">Poisson Braisé</span>
+                            <span class="block text-lg">Par tony pro</span>
+                        </div>
+                        <div class="badge">
+                            <span class="mx-2 uppercase">30:00 mins</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../../dist/images/poulet dg.png" alt="poisson braisé" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover"/>
+                        <div class="m-4">
+                            <span class="font-bold text-2xl">Poisson Dg</span>
+                            <span class="block text-lg">Par tony pro</span>
+                        </div>
+                        <div class="badge">
+                            <span class="mx-2 uppercase">30:00 mins</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../../dist/images/cokie-plantain mur.jpg" alt="poisson braisé" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover"/>
+                        <div class="m-4">
+                            <span class="font-bold text-2xl">Koki Plantain Mûr</span>
+                            <span class="block text-lg">Par tony pro</span>
+                        </div>
+                        <div class="badge">
+                            <span class="mx-2 uppercase">30:00 mins</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../../dist/images/brochette-de-porc-la-chinoise.jpg" alt="poisson braisé" class="w-full sm:h-48 md:40 lg:35 xl:32 object-cover"/>
+                        <div class="m-4">
+                            <span class="font-bold text-2xl">Brochette de Porc</span>
                             <span class="block text-lg">Par tony pro</span>
                         </div>
                         <div class="badge">
